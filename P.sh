@@ -1,4 +1,6 @@
 #!/bin/bash
 git add .
-git commit -m 'update'
+echo "Type an update message:"
+read message
+git commit -m 'message'
 git push
