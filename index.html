@@ -1,33 +1,22 @@
 <style>
-  h4 {}
-
-  p {}
-
-  .links {
-    margin-right: 20px;
-
-  }
-
-  .fullCard {
-    border: 1px solid #ccc;
+  button {
     border-radius: 5px;
-    margin: 10px 5px;
-    padding: 4px;
+    color: white;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
   }
-
-  .cardContent {
-    padding: 10px;
+  
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
   }
+  
+  @keyframes background-color{
+    100%{
+    background-color: #4791d0;
+    }
+  }
+  
 </style>
-<div class="fullCard">
-  <div class="cardContent">
-    <div class="cardText">
-      <h4>Google</h4>
-      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
-    </div>
-    <div class="cardLinks">
-      <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
-      <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
-    </div>
-  </div>
-</div>
+  
+<button>Register</button>
